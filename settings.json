@@ -1,0 +1,124 @@
+{
+ "Account": {
+  "Username": "xxxx",
+  "Password": "xxxx",
+  "Currency": "Doge",
+  "2FA": "OFF",
+  "API Access": "OFF",
+  "Reset Seed": "100"
+ },
+ "Target Profit": "10000",
+ "Target Win": "100000",
+ "Lose Target": "0",
+ "Interval": "0",
+ "Betset": [
+  {
+   "Name Bet Set": "00 - @BEDUCODE SETTING",
+   "Base Bet": "0.0000001",
+   "Stop Max Bet": "OFF",
+   "Chance": "79.5",
+   "Max LS Strike": "OFF",
+   "Random Chance": {
+    "Toggle": "ON",
+    "Min": "32.2",
+    "Max": "79.5"
+   },
+   "Bet": {
+    "Bet": "Hi",
+    "Hi / Low": {
+     "Toggle": "ON",
+     "If Lose": "1",
+     "If Win": "1"
+    }
+   },
+   "Mode1": {
+    "Toggle": "ON",
+    "Lose": "1.4",
+    "Win": "1",
+    "Profit": "0.00000001"
+   },
+   "Mode2": {
+    "Toggle": "OFF",
+    "Prebet": "0.00000001",
+    "Preroll": "8",
+    "Multipler": "1.12"
+   },
+   "Mode3": {
+    "Toggle": "OFF",
+    "Profit": "0.00000001",
+    "Prebet": "0.00000001",
+    "Gateway": "10",
+    "Preroll": "1",
+    "Limitlose": "100",
+    "Multi Win": {
+     "LCMin": "5",
+     "LCMax": "5"
+    },
+    "Multi Lose": {
+     "LCMin": "5",
+     "LCMax": "5"
+    }
+   },
+   "Mode4": {
+    "Toggle": "OFF",
+    "Prebet": "0.00000001",
+    "Profit": "0.00000001",
+    "Gateway": "7",
+    "Passrol": "5",
+    "Limitlose": "100",
+    "Multi Win": {
+     "LCMin": "5",
+     "LCMax": "5"
+    },
+    "Multi Lose": {
+     "LCMin": "5",
+     "LCMax": "5"
+    }
+   },
+   "Mode5": {
+    "Toggle": "OFF",
+    "Prebet": "0.00000001",
+    "R1": "0.00000002",
+    "R2": "0.00000003",
+    "Preroll": "15",
+    "RepeatBet": "15",
+    "Multipler": "1.06",
+    "Limitlose": "100",
+    "Multi Win": {
+     "LCMin": "49",
+     "LCMax": "49"
+    },
+    "Multi Lose": {
+     "LCMin": "5",
+     "LCMax": "5"
+    }
+   },
+   "Pushbet": {
+    "Toggle": "OFF",
+    "Profit": "0.00000001"
+   },
+   "Dalembert": {
+    "Toggle": "OFF",
+    "Prebet": "0.00000001",
+    "Preroll": "2",
+    "Profit": "0.00000001"
+   },
+   "Fibonacci": {
+    "Toggle": "OFF",
+    "Prebet": "0.00000001",
+    "Preroll": "1"
+   },
+   "If Win": "1",
+   "If Lose": "1.4",
+   "Reset If Win": "2",
+   "Reset If Profit": "0.00000001",
+   "Interval": "0"
+  }
+ ],
+ "Auto Wd": {
+  "Toggle": "OFF",
+  "If Balance": "0",
+  "Wallet Address": "XXXXXXX",
+  "Amount": "0"
+ }
+}

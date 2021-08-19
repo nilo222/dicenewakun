@@ -1,0 +1,59 @@
+## BEFORE RUN SC
+
+sebelum running silahkan install requirment module dari install.txt terlebih dahulu caranya :
+
+## command "python3" atau "python" di sesuaikan sesuai enviroment masing2
+python3 -m pip install -r install.txt
+
+kemudian masukan username & password 999doge kamu di file setting.json
+
+jika ingin menjalankan melalui file sh, silahkan edit file run.sh jika kamu menggunakan command "python", namun jika kalian menggunakan command "python3" tidak perlu diubah.
+
+setelelah itu kamu bisa jalankan menggunakan sh atau command ke file python dengan cara :
+
+## run sh file
+sh run.sh
+
+## run python file
+python3 main.py
+
+kamu juga bisa ubah tipe currencynya ya gaes, terdapet 3 tipe currency yang tersedia antara lain :
+-- DOGE
+-- LTC
+-- ETH
+
+silahkan ubah di file setting.json
+
+## FITUR
+
+terdapet beberapa fitur dalam sc ini salah satunya kamu bisa dapet harga last price sesuai currency yang sedang kamu jalankan langsung dari price list indodax, kamu bisa tau berapa jumlah uang
+yang bisa kamu withdraw pada saat kamu menjalankan scriptnya.
+
+namun pada bagian besar sc ini terdapat 3 fitur utama antara lain :
+
+# run mode normal
+running normal seperti biasa menggunakan standar yang ada seperti di relandice yaitu menggunakan if lose, if win dll
+
+# run mode win on win
+untuk mengaktifkan mode ini, silahkan edit pada file setting.json dan ubah toggle pada mode1 dengan mode ON ** mode lain harus OFF
+
+-- prebet 	: digunakan sebagai base on bet sebelum kalian win
+-- win get 1 	: pada saat currentstrike yang di atur pada nilai ini, multipler akan aktif mengkalikan jumlah bet kamu dengan base bet di bet selanjutnya dan akan kembali ke basebet jika sudah win * dengan catatan bila statusnya win
+-- win get 2 	: pada saat currentstrike yang di atur pada nilai ini, multipler akan aktif mengkalikan jumlah bet kamu dengan bet sebelumnya di "win get 1" di bet selanjutnya dan akan kembali ke basebet jika sudah win * dengan catatan bila statusnya win
+
+-- Multipler 1 	: nilai perkalian yang digunakan pada "win get 1"
+-- Multipler 2 	: nilai perkalian yang digunakan pada "win get 2"
+
+
+# run mode preroll
+untuk mengaktifkan mode ini, silahkan edit pada file setting.json dan ubah toggle pada mode2 dengan mode ON ** mode lain harus OFF
+-- prebet 	: digunakan sebagai base on bet sebelum sebelum loss strike melebihi jumlah preroll yang di set up
+-- preroll	: jumlah preroll yang ingin digunakan	
+
+## FITUR KEAMANAN ** UNDER MAINTENANCE
+
+-- terdapat fitur random useragent dimana akan setiap kamu running script tercatat menggunakan device yang berbeda, meski kamu menjalankan di 1 device yang sama
+-- sebelum runnning script, kamu akan di minta untuk menunggu pencarian proxy, dimana ini merupakan fiture rotation proxy yang akan aktif setiap kamu menjalankan sc, 
+-- fitur rotation proxy ini akan menghide ip original kamu agar tidak terdeteksi oleh server, maka di sarankan menjalankan sc dengan file sh dan setup target profit di file setting.json agar setiap target tercapai, sc akan melakukan rotasi proxy ulang
+
+oke guys, gitu dulu ya, next akan di tambahkan lagi fitur2 yang sekiranya bisa memaksimalkan profit kita, tapi tetep ya jangan nafsu karena gimanapun this is jake bro hahahah....
